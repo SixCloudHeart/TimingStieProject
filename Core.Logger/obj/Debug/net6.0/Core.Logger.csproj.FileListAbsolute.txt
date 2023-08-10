@@ -1,0 +1,12 @@
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\bin\Debug\net6.0\Core.Logger.deps.json
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\bin\Debug\net6.0\Core.Logger.dll
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\bin\Debug\net6.0\Core.Logger.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.csproj.AssemblyReference.cache
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.GeneratedMSBuildEditorConfig.editorconfig
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.AssemblyInfoInputs.cache
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.AssemblyInfo.cs
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.csproj.CoreCompileInputs.cache
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.dll
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\refint\Core.Logger.dll
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\Core.Logger.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.Logger\obj\Debug\net6.0\ref\Core.Logger.dll

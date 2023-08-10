@@ -1,0 +1,229 @@
+2023-08-09 15:17:22 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 15:17:22 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 15:17:22 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 15:17:22 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 15:17:22 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 465.9361ms ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.4875ms ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.1300ms ||  || end 
+2023-08-09 15:17:24 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 15:17:25 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.8879ms ||  || end 
+2023-08-09 15:17:28 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 ||  || end 
+2023-08-09 15:17:28 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executing endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 15:17:29 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Route matched with "{action = \"Post\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Core.Models.SugarModel.StationDataTypeDto]] Post(Core.Models.SugarModel.StationDataTypeDto)" on controller "shijinheSqllite.Controllers.WeatherForecastController" ("shijinheSqllite"). ||  || end 
+2023-08-09 15:17:29 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Executed action "shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)" in 2.7213ms ||  || end 
+2023-08-09 15:17:29 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executed endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 15:17:29 || Error || Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware || An unhandled exception has occurred while executing the request. || System.InvalidOperationException: Unable to resolve service for type 'Core.IServices.ISugarServices.IStationDataTypeService' while attempting to activate 'shijinheSqllite.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method347(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ || end 
+2023-08-09 15:17:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 - 500 - text/plain;+charset=utf-8 113.0363ms ||  || end 
+2023-08-09 15:24:45 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 15:24:45 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 15:24:45 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 15:24:45 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 15:24:45 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 15:24:46 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.0501ms ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 564.6513ms ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.3292ms ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 15:24:47 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.7742ms ||  || end 
+2023-08-09 15:25:08 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 ||  || end 
+2023-08-09 15:25:08 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executing endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 15:25:08 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Route matched with "{action = \"Post\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Core.Models.SugarModel.StationDataTypeDto]] Post(Core.Models.SugarModel.StationDataTypeDto)" on controller "shijinheSqllite.Controllers.WeatherForecastController" ("shijinheSqllite"). ||  || end 
+2023-08-09 15:25:08 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Executed action "shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)" in 2.5319ms ||  || end 
+2023-08-09 15:25:08 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executed endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 15:25:08 || Error || Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware || An unhandled exception has occurred while executing the request. || System.InvalidOperationException: Unable to resolve service for type 'Core.IServices.ISugarServices.IStationDataTypeService' while attempting to activate 'shijinheSqllite.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method347(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ || end 
+2023-08-09 15:25:08 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 - 500 - text/plain;+charset=utf-8 138.8641ms ||  || end 
+2023-08-09 16:23:40 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 16:23:40 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 16:23:40 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 16:23:40 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 16:23:40 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 493.8652ms ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.6698ms ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8890ms ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 16:23:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.2775ms ||  || end 
+2023-08-09 16:24:25 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 ||  || end 
+2023-08-09 16:24:25 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executing endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:24:25 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Route matched with "{action = \"Post\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Core.Models.SugarModel.StationDataTypeDto]] Post(Core.Models.SugarModel.StationDataTypeDto)" on controller "shijinheSqllite.Controllers.WeatherForecastController" ("shijinheSqllite"). ||  || end 
+2023-08-09 16:24:25 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Executed action "shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)" in 3.6647ms ||  || end 
+2023-08-09 16:24:25 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executed endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:24:25 || Error || Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware || An unhandled exception has occurred while executing the request. || System.InvalidOperationException: Unable to resolve service for type 'Core.IServices.ISugarServices.IStationDataTypeService' while attempting to activate 'shijinheSqllite.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method347(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ || end 
+2023-08-09 16:24:25 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 - 500 - text/plain;+charset=utf-8 175.5872ms ||  || end 
+2023-08-09 16:39:37 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 16:39:37 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 16:39:37 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 16:39:37 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 16:39:37 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 16:39:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.0919ms ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 502.2902ms ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.6218ms ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 16:39:39 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.2564ms ||  || end 
+2023-08-09 16:39:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 ||  || end 
+2023-08-09 16:39:43 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executing endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:39:43 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Route matched with "{action = \"Post\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Core.Models.SugarModel.StationDataTypeDto]] Post(Core.Models.SugarModel.StationDataTypeDto)" on controller "shijinheSqllite.Controllers.WeatherForecastController" ("shijinheSqllite"). ||  || end 
+2023-08-09 16:39:43 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Executed action "shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)" in 3.1177ms ||  || end 
+2023-08-09 16:39:43 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executed endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:39:43 || Error || Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware || An unhandled exception has occurred while executing the request. || System.InvalidOperationException: Unable to resolve service for type 'Core.IServices.ISugarServices.IStationDataTypeService' while attempting to activate 'shijinheSqllite.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method347(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ || end 
+2023-08-09 16:39:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 - 500 - text/plain;+charset=utf-8 123.7628ms ||  || end 
+2023-08-09 16:43:22 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 16:43:22 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 16:43:22 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 16:43:22 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 16:43:22 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 352.5791ms ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.8358ms ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.2202ms ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 16:43:23 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.7566ms ||  || end 
+2023-08-09 16:50:03 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 16:50:03 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 16:50:03 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 16:50:03 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 16:50:03 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 16:50:04 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 750.4308ms ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.4085ms ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.8123ms ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 16:50:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.1622ms ||  || end 
+2023-08-09 16:50:11 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 ||  || end 
+2023-08-09 16:50:11 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executing endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:50:11 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Route matched with "{action = \"Post\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Core.Models.SugarModel.StationDataTypeDto]] Post(Core.Models.SugarModel.StationDataTypeDto)" on controller "shijinheSqllite.Controllers.WeatherForecastController" ("shijinheSqllite"). ||  || end 
+2023-08-09 16:50:11 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Executed action "shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)" in 4.0956ms ||  || end 
+2023-08-09 16:50:11 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executed endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:50:11 || Error || Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware || An unhandled exception has occurred while executing the request. || System.InvalidOperationException: Unable to resolve service for type 'Core.IServices.ISugarServices.IStationDataTypeService' while attempting to activate 'shijinheSqllite.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method349(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ || end 
+2023-08-09 16:50:11 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 - 500 - text/plain;+charset=utf-8 167.0304ms ||  || end 
+2023-08-09 16:54:01 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-09 16:54:01 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-09 16:54:01 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-09 16:54:01 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-09 16:54:01 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-09 16:54:02 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 500.7485ms ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.5295ms ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.8060ms ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-09 16:54:03 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.3539ms ||  || end 
+2023-08-09 16:54:06 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 ||  || end 
+2023-08-09 16:54:06 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executing endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:54:06 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Route matched with "{action = \"Post\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Core.Models.SugarModel.StationDataTypeDto]] Post(Core.Models.SugarModel.StationDataTypeDto)" on controller "shijinheSqllite.Controllers.WeatherForecastController" ("shijinheSqllite"). ||  || end 
+2023-08-09 16:54:06 || Information || Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker || Executed action "shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)" in 3.932ms ||  || end 
+2023-08-09 16:54:06 || Information || Microsoft.AspNetCore.Routing.EndpointMiddleware || Executed endpoint '"shijinheSqllite.Controllers.WeatherForecastController.Post (shijinheSqllite)"' ||  || end 
+2023-08-09 16:54:06 || Error || Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware || An unhandled exception has occurred while executing the request. || System.InvalidOperationException: Unable to resolve service for type 'Core.IServices.ISugarServices.IStationDataTypeService' while attempting to activate 'shijinheSqllite.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method349(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ || end 
+2023-08-09 16:54:06 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 POST https://localhost:7156/WeatherForecast application/json-patch+json 187 - 500 - text/plain;+charset=utf-8 157.4299ms ||  || end 

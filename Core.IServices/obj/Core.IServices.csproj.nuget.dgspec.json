@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\sqlLitePoject\\shijinheSqllite\\Core.IServices\\Core.IServices.csproj": {}
+  },
+  "projects": {
+    "F:\\sqlLitePoject\\shijinheSqllite\\Core.Common\\Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Common\\Core.Common.csproj",
+        "projectName": "Core.Common",
+        "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Common\\Core.Common.csproj",
+        "packagesPath": "C:\\Users\\19342\\.nuget\\packages\\",
+        "outputPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19342\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj",
+        "projectName": "Core.Entity",
+        "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj",
+        "packagesPath": "C:\\Users\\19342\\.nuget\\packages\\",
+        "outputPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19342\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.95, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\sqlLitePoject\\shijinheSqllite\\Core.IRepository\\Core.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IRepository\\Core.IRepository.csproj",
+        "projectName": "Core.IRepository",
+        "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IRepository\\Core.IRepository.csproj",
+        "packagesPath": "C:\\Users\\19342\\.nuget\\packages\\",
+        "outputPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19342\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Common\\Core.Common.csproj"
+              },
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj"
+              },
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\sqlLitePoject\\shijinheSqllite\\Core.IServices\\Core.IServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IServices\\Core.IServices.csproj",
+        "projectName": "Core.IServices",
+        "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IServices\\Core.IServices.csproj",
+        "packagesPath": "C:\\Users\\19342\\.nuget\\packages\\",
+        "outputPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19342\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.IRepository\\Core.IRepository.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.IRepository\\Core.IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj",
+        "projectName": "Core.Models",
+        "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj",
+        "packagesPath": "C:\\Users\\19342\\.nuget\\packages\\",
+        "outputPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19342\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.95, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
