@@ -174,3 +174,9 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Repositor
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Services.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Repository.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Services.pdb
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.Extensions.AspNetCore.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.Extensions.Core.dll

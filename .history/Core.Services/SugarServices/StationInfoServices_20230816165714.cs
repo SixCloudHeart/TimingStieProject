@@ -1,0 +1,48 @@
+﻿using Core.Entity;
+using Core.IRepository.ISugarRepository;
+using Core.IServices;
+using Core.IServices.ISugarServices;
+using Core.Models.SugarModel;
+using Core.Services.BaseServices;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Core.Services.SugarServices
+{
+    public class StationInfoServices : BaseServices<StationInfo>, IStationInfoService
+    {
+        readonly IReadSiteSettingXML _readSiteSettingXML;
+        readonly IStationinfoRepository _stationinfoRepository;
+
+        public StationInfoServices(IReadSiteSettingXML readSiteSettingXML, IStationinfoRepository stationinfoRepository)
+        {
+            _readSiteSettingXML = readSiteSettingXML;
+            _stationinfoRepository = stationinfoRepository;
+
+        }
+        /// <summary>
+        /// 添加对应的XML 数据
+        /// </summary>
+        /// <param name="stationInfo"></param>
+        /// <returns></returns>
+        public async Task<bool> AddStationInfo(StationInfo stationInfo)
+        {
+            bool result = false;
+            var existSite = (await _stationinfoRepository.Query(w => w.StationName.Equals(stationInfo.StationName))).FirstOrDefault();
+            if (existSite != null)
+            {
+                result=await _stationinfoRepository.Update(existSite);
+            }
+            else
+            {
+
+            result=await _stationinfoRepository.Add(existSite)>0;
+            }
+            return result;
+        }
+    }
+}

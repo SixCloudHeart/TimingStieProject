@@ -1,4 +1,5 @@
-﻿using Core.IServices.IBaseServices;
+﻿using Core.Entity;
+using Core.IServices.IBaseServices;
 using Core.Models.SugarModel;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core.IServices.ISugarServices
 {
-    public interface IStationDataTypeService : IBaseServices<StationDataTypeDto> 
+    public interface IStationDataTypeService : IBaseServices<StationDataType> 
     {
         Task<List<StationDataTypeDto>> GetStationDataTypesAsync(StationDataTypeDto stationDataTypeDto);
     }

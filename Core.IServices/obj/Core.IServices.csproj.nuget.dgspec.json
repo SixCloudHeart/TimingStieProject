@@ -32,7 +32,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj"
+              },
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -52,6 +59,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

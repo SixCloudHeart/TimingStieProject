@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StationNode>
+	<!-- 定时 -->
+	<StationAddressItems>
+		<StationName>20230711DB4float20</StationName>
+		<PLCAddress>DB11.DBX0.0</PLCAddress>
+		<StationType>0</StationType>
+		<VarType>0</VarType>
+
+	</StationAddressItems>
+</StationNode>

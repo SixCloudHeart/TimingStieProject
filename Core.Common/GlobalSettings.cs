@@ -89,5 +89,6 @@ namespace Core.Common
                 return AppSettings.GetValues(new string[] { "Oracle", "OracleSelect" });
             }
         }
+
     }
 }

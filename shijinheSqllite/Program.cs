@@ -10,7 +10,9 @@ using Autofac.Core;
 using static Core.Common.AppSettingManager.AppSetting;
 using System.Configuration;
 using Core.IServices.ISugarServices;
-
+using Core.Common;
+using StackExchange.Redis;
+using shijinheSqllite.BackgroundServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,9 +23,12 @@ builder.Host.UseSerilog(
     (context, services, logger) =>
     {
         logger.ReadFrom.Configuration(context.Configuration)
+        
         .ReadFrom.Services(services)
         .Enrich.FromLogContext() // 记录上下文
         .WriteTo.Console(); // 输出到控制台
+
+      
     }
     );
 // 使用Autofac工厂进行反射程序集注入
@@ -39,10 +44,16 @@ builder.Services.AddEndpointsApiExplorer();
 // 注入扩展的SQLsugar
 builder.Services.AddSqlsugarSetup();
 
-
-
+//// 
+//builder.Services.AddStackExchangeRedisCache(options => {
+//    // 配置redis 数据库连接
+//    options.Configuration = builder.Configuration.GetConnectionString("RedisConfig:Default:Connection");
+//});
+// 注入redis 数据库
+builder.Services.AddSingleton<IConnectionMultiplexer>(await ConnectionMultiplexer.ConnectAsync(builder.Configuration.GetValue<string>("RedisConnection")??"127.0.0.1:6379"));
 
 builder.Services.AddSwaggerGen();
+
 
 builder.Services.AddControllers().AddNewtonsoftJson(options => {
 
@@ -60,6 +71,8 @@ builder.Services.AddControllers().AddNewtonsoftJson(options => {
     options.SerializerSettings.Converters.Add(new StringEnumConverter());
 
 });
+builder.Services.AddHostedService<SiteDataWriteSqlliteServcies>();
+builder.Services.AddScoped<IScopedProcessingServices, DefaultScopedProcessingService>();
 
 var app = builder.Build();
 

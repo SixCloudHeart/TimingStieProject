@@ -32,7 +32,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Entity\\Core.Entity.csproj"
+              },
+              "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Models\\Core.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -52,6 +59,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -460,6 +471,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -549,6 +566,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -564,6 +585,14 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            },
+            "StackExchange.Redis.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

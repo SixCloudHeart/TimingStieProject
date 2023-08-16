@@ -1,20 +1,23 @@
 using Core.IServices.ISugarServices;
 using Core.Models.SugarModel;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace shijinheSqllite.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/v2/[controller]/[Action]")]
     public class WeatherForecastController : ControllerBase
     {
         private readonly IStationDataTypeService _stationDataTypeService;
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IDistributedCache _cache;
 
-        public WeatherForecastController(IStationDataTypeService stationDataTypeService, ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(IStationDataTypeService stationDataTypeService, ILogger<WeatherForecastController> logger, IDistributedCache cache)
         {
             _stationDataTypeService = stationDataTypeService;
             _logger = logger;
+            _cache = cache;
         }
         private static readonly string[] Summaries = new[]
         {
@@ -24,22 +27,15 @@ namespace shijinheSqllite.Controllers
 
      
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
-        {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
-        }
+      
 
         [HttpPost(Name = "StationDataType")]
         public async Task<List<StationDataTypeDto>> Post(StationDataTypeDto stationDataTypeDto)
         {
             return await _stationDataTypeService.GetStationDataTypesAsync(stationDataTypeDto);
         }
+
+      
+
     }
 }

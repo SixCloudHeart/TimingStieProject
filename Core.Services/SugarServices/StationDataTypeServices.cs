@@ -1,4 +1,5 @@
-﻿using Core.IRepository.ISugarRepository;
+﻿using Core.Entity;
+using Core.IRepository.ISugarRepository;
 using Core.IServices.ISugarServices;
 using Core.Models.SugarModel;
 using Core.Services.BaseServices;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Core.Services.SugarServices
 {
-    public class StationDataTypeServices : BaseServices<StationDataTypeDto>, IStationDataTypeService
+    public class StationDataTypeServices : BaseServices<StationDataType>, IStationDataTypeService
     {
 
           private   readonly IStationDataTypeRepository _stationDataTypeRepository;
