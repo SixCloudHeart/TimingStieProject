@@ -12,8 +12,22 @@ namespace Core.Services.SugarServices
 {
     public class SiteDataServices : BaseServices<SiteData>, ISiteDataService
     {
+        readonly ISiteDataRepository _repository;
+        public SiteDataServices(ISiteDataRepository repository)
+        {
+            _repository = repository;
+        }
+        public async Task<bool>  AddSiteDatas(List<SiteData> siteDatas)
+        {
+            bool result = false;
+            result = await _repository.Add(siteDatas) > 0;
+            return result;
+        }
+        public async Task<int> CountSiteDatas() 
+        {
+            var result = await _repository.Query();
 
-        
-      
+            return result.Count;
+        }
     }
 }

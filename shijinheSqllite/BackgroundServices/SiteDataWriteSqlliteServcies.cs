@@ -4,6 +4,7 @@ using Core.IServices;
 using Core.IServices.ISugarServices;
 using Core.Repository.SqlSugarRepository;
 using Core.Services;
+using Serilog;
 using StackExchange.Redis;
 
 namespace shijinheSqllite.BackgroundServices
@@ -12,22 +13,22 @@ namespace shijinheSqllite.BackgroundServices
     {
 
         private readonly IServiceProvider _serviceProvider;
-        readonly ILogger<SiteDataWriteSqlliteServcies> _logger;
+        
 
 
-        public SiteDataWriteSqlliteServcies(ILogger<SiteDataWriteSqlliteServcies> logger, IServiceProvider serviceProvider)
+        public SiteDataWriteSqlliteServcies( IServiceProvider serviceProvider)
         {
 
 
-            _logger = logger;
             _serviceProvider = serviceProvider;
         }
 
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            await Console.Out.WriteLineAsync("开始");
 
+            Log.Information("开始");
+           // await Console.Out.WriteLineAsync("开始");
             using (IServiceScope scope = _serviceProvider.CreateScope()) {
                  
                 IScopedProcessingServices scopedProcessingService =
@@ -35,9 +36,9 @@ namespace shijinheSqllite.BackgroundServices
                 await scopedProcessingService.DoWorkAsync(stoppingToken);
             }
 
-              
-            _logger.LogInformation("结束");
-         
+          
+
+
 
         }
 

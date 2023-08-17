@@ -10,6 +10,7 @@ namespace Core.IServices.ISugarServices
 {
     public interface ISiteDataService : IBaseServices<SiteData> 
     {
-       
+       Task<bool> AddSiteDatas(List<SiteData> siteDatas);
+       Task<int> CountSiteDatas();
     }
 }

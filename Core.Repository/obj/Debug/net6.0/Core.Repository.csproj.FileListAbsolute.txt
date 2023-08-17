@@ -1,10 +1,12 @@
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Repository.deps.json
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Repository.dll
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Repository.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Common.dll
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Entity.dll
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.IRepository.dll
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Models.dll
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.IRepository.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Common.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Entity.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Models.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\obj\Debug\net6.0\Core.Repository.csproj.AssemblyReference.cache
@@ -17,5 +19,3 @@ F:\sqlLitePoject\shijinheSqllite\Core.Repository\obj\Debug\net6.0\Core.Repositor
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\obj\Debug\net6.0\refint\Core.Repository.dll
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\obj\Debug\net6.0\Core.Repository.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.Repository\obj\Debug\net6.0\ref\Core.Repository.dll
-F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Common.dll
-F:\sqlLitePoject\shijinheSqllite\Core.Repository\bin\Debug\net6.0\Core.Common.pdb

@@ -11,5 +11,7 @@ namespace Core.IServices.ISugarServices
     public interface IStationInfoService : IBaseServices<StationInfo> 
     {
         Task<bool> AddStationInfo(StationInfo stationInfo);
+
+        Task<List<StationInfo>> GetStationInfos(StationInfo stationInfo);
     }
 }

@@ -21,6 +21,8 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.AspN
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
@@ -50,6 +52,7 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Newtonsoft.Jso
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Npgsql.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Serilog.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Serilog.AspNetCore.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
@@ -66,6 +69,9 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\SQLitePCLRaw.p
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\SqlSugar.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\DmProvider.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Kdbndp.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.Extensions.AspNetCore.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.Extensions.Core.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -150,6 +156,10 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Entity.dl
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.IRepository.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.IServices.dll
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Models.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Repository.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Services.dll
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Repository.pdb
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Services.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Common.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Entity.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.IRepository.pdb
@@ -170,13 +180,3 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\refint\shijinh
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.genruntimeconfig.cache
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\ref\shijinheSqllite.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Repository.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Services.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Repository.pdb
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Services.pdb
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.Extensions.AspNetCore.dll
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\StackExchange.Redis.Extensions.Core.dll

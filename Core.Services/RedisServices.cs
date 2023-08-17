@@ -3,6 +3,8 @@ using Core.IRepository.ISugarRepository;
 using Core.IServices;
 using Core.IServices.ISugarServices;
 using Core.Models;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 using System;
@@ -19,12 +21,17 @@ namespace Core.Services
 
         readonly IStationInfoService _stationInfoService;
         readonly ISiteDataService _stationDataService;
+      
 
-        public RedisServices(IConnectionMultiplexer multiplexer, IStationInfoService stationInfoService, ISiteDataService stationDataService)
+        readonly ILogger<RedisServices> _logger;
+
+        public RedisServices(IConnectionMultiplexer multiplexer, IStationInfoService stationInfoService, ISiteDataService stationDataService,  ILogger<RedisServices> logger)
         {
             _multiplexer = multiplexer;
             _stationInfoService = stationInfoService;
             _stationDataService = stationDataService;
+          
+            _logger = logger;
         }
         /// <summary>
         /// 处理redis 存储在数据库1 的数据
@@ -42,29 +49,44 @@ namespace Core.Services
             var redisList = await _multiplexer.GetDatabase(1).ListRangeAsync(key);
 
             StationInfo siteInfoList = (await _stationInfoService.Query(w => w.StationName == (station.StationName.ToString() ?? ""))).ToList().FirstOrDefault();
-            List<SiteData> siteData = new List<SiteData>();
 
-            if (redisList != null)
+            var redisExistKey = (await _multiplexer.GetDatabase(4).StringGetAsync(siteInfoList.StationName)).HasValue;
+
+
+
+            if (redisExistKey)
             {
-                foreach (var item in redisList)
-                {
-                    if (string.IsNullOrEmpty(item.ToString().Trim()))
-                    {
-                        var plcDataDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
-                        SiteData part = new SiteData()
-                        {
+                
+                return false;
+            }
+            else
+            {
 
-                            GuidText = Guid.NewGuid().ToString(),
-                            ReadPLCTime = plcDataDto.StoreDateTime,
-                            StationID = station.StationID,
-                            StrData = plcDataDto.Value,
-                        };
-                        siteData.Add(part);
+                List<SiteData> siteData = new List<SiteData>();
+
+                if (redisList != null)
+                {
+                    foreach (var item in redisList)
+                    {
+                        if (string.IsNullOrEmpty(item.ToString().Trim()))
+                        {
+                            var plcDataDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
+                            SiteData part = new SiteData()
+                            {
+
+                                GuidText = Guid.NewGuid().ToString(),
+                                ReadPLCTime = plcDataDto.StoreDateTime,
+                                StationID = station.StationID,
+                                StrData = plcDataDto.Value,
+                            };
+                            siteData.Add(part);
+                        }
                     }
                 }
+                var result = await _stationDataService.AddSiteDatas(siteData);
+                return result;
             }
-            var result = await _stationDataService.Add(siteData) > 0;
-            return result;
+
         }
 
         public async Task<bool> NotTimingSiteInfoWriteDBAsync(StationInfo station)
@@ -79,35 +101,49 @@ namespace Core.Services
             string suffixStr = DateTime.Now.ToString("yyyymmdd");
             string key = string.Format("{0}{1}", station.StationName, suffixStr);
 #endif
-
-
-
-            var redisList = await _multiplexer.GetDatabase(0).ListRangeAsync(key);
-
-            StationInfo siteInfoList = (await _stationInfoService.Query(w => w.StationName == (station.StationName ?? ""))).ToList().FirstOrDefault();
-            List<SiteData> siteData = new List<SiteData>();
-
-            if (redisList != null)
+           
+            try
             {
-                foreach (var item in redisList)
+                var redisList = await _multiplexer.GetDatabase(0).ListRangeAsync(key);
+                var redisExistKey = (await _multiplexer.GetDatabase(4).StringGetAsync(key)).HasValue;
+                List<SiteData> siteData = new List<SiteData>();
+                if (redisExistKey)
                 {
-                    if (string.IsNullOrEmpty(item.ToString().Trim()))
+                    return false;
+                }
+                if (redisList != null)
+                {
+                    var newId = await _stationDataService.CountSiteDatas() + 1;
+                    await _multiplexer.GetDatabase(4).StringSetAsync(key, key);
+                    foreach (var item in redisList)
                     {
-                        var plcDataDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
-                        SiteData part = new SiteData()
+                        if (!string.IsNullOrEmpty(item.ToString().Trim()))
                         {
-
-                            GuidText = Guid.NewGuid().ToString(),
-                            ReadPLCTime = plcDataDto.StoreDateTime,
-                            StationID = station.StationID,
-                            StrData = plcDataDto.Value,
-                        };
-                        siteData.Add(part);
+                            
+                            var plcDataDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
+                            SiteData part = new SiteData()
+                            {
+                                 SiteDataID = newId,
+                                GuidText = Guid.NewGuid().ToString(),
+                                ReadPLCTime = plcDataDto.StoreDateTime,
+                                StationID = station.StationID,
+                                StrData = plcDataDto.Value,
+                            };
+                            siteData.Add(part);
+                        }
+                        newId++;
                     }
                 }
+                var result = await _stationDataService.AddSiteDatas(siteData);
+                return result;
             }
-            var result = await _stationDataService.Add(siteData) > 0;
-            return result;
+            catch (Exception ex)
+            {
+                _logger.LogError(message: ex.Message);
+                return false;
+            }
+
+
         }
     }
 }

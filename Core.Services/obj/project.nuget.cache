@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OAj3MGmUPpZ5fsuFsM+sVN++QJzPirwod6z71lYK6LHMj7uARA6N7DUiN7TuVYTqKm7VuKmAnEOB4iZDY5vbqg==",
+  "dgSpecHash": "W3kSIAk9HKLkz+PEDE8S+K2yXKgIqObEOnAe11AxdrcsvM9DMc5GLcG5JgUa85eTP0vrUY0fNe0d26GQVNEjPw==",
   "success": true,
   "projectFilePath": "F:\\sqlLitePoject\\shijinheSqllite\\Core.Services\\Core.Services.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\19342\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\19342\\.nuget\\packages\\microsoft.data.sqlite\\7.0.5\\microsoft.data.sqlite.7.0.5.nupkg.sha512",
     "C:\\Users\\19342\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
+    "C:\\Users\\19342\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\19342\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\19342\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\19342\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",

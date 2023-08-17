@@ -39,10 +39,19 @@ namespace Core.Services.SugarServices
             }
             else
             {
-
-            result=await _stationinfoRepository.Add(existSite)>0;
+                int newID = (await _stationinfoRepository.Query()).Count+1;
+                stationInfo.StationID = newID;
+                result =await _stationinfoRepository.Add(stationInfo) >0;
             }
             return result;
         }
+        public async Task<List<StationInfo>> GetStationInfos(StationInfo stationInfo)
+        {
+            var result = await _stationinfoRepository.Query();
+            return result;
+        }
+
+
+
     }
 }

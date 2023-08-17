@@ -7,26 +7,35 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq.Expressions;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using static Core.Common.AppSettingManager.AppSetting;
 
 namespace Core.Repository.BaseRepository
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class, new()
     {
-        // private readonly IUnitOfWork _unitOfWork;
-        private readonly SqlSugarClient _db;
+         private readonly IUnitOfWorkManage _unitOfWork;
+        private readonly SqlSugarClient _dbBase;
         public BaseRepository(IUnitOfWorkManage unitOfWork)
         {
-            // _unitOfWork = unitOfWork;
-            _db = unitOfWork.GetDbClient();
+             _unitOfWork = unitOfWork;
+            _dbBase = unitOfWork.GetDbClient();
         }
 
-        internal ISqlSugarClient Db
+        private ISqlSugarClient _db
         {
-            get { return _db; }
+            get
+            {
+                ISqlSugarClient db = _dbBase;
+                return db;
+            }
         }
+        public ISqlSugarClient Db => _db;
+       
 
+   
 
         public async Task<TEntity> QueryById(object objId)
         {

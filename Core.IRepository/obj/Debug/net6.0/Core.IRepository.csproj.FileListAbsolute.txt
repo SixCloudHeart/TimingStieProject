@@ -1,8 +1,10 @@
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.IRepository.deps.json
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.IRepository.dll
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.IRepository.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Common.dll
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Entity.dll
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Models.dll
+F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Common.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Entity.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Models.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\obj\Debug\net6.0\Core.IRepository.csproj.AssemblyReference.cache
@@ -15,5 +17,3 @@ F:\sqlLitePoject\shijinheSqllite\Core.IRepository\obj\Debug\net6.0\Core.IReposit
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\obj\Debug\net6.0\refint\Core.IRepository.dll
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\obj\Debug\net6.0\Core.IRepository.pdb
 F:\sqlLitePoject\shijinheSqllite\Core.IRepository\obj\Debug\net6.0\ref\Core.IRepository.dll
-F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Common.dll
-F:\sqlLitePoject\shijinheSqllite\Core.IRepository\bin\Debug\net6.0\Core.Common.pdb

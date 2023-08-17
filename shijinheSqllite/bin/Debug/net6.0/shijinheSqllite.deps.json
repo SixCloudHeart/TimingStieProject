@@ -1475,6 +1475,7 @@
       "Core.Services/1.0.0": {
         "dependencies": {
           "Core.IServices": "1.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
           "StackExchange.Redis": "2.6.122"
         },
         "runtime": {

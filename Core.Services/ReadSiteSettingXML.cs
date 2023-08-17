@@ -13,39 +13,45 @@ using static Dm.net.buffer.ByteArrayBuffer;
 
 namespace Core.Services
 {
-    public class ReadSiteSettingXML:IReadSiteSettingXML
+    public class ReadSiteSettingXML : IReadSiteSettingXML
     {
         readonly ILogger<ReadSiteSettingXML> _logger;
 
-        public ReadSiteSettingXML( ILogger<ReadSiteSettingXML> logger)
+        public ReadSiteSettingXML(ILogger<ReadSiteSettingXML> logger)
         {
-            
+
             _logger = logger;
         }
-      
+
 
         public async Task<List<StationInfo>> ReadStationConfigXmlAsync(string filePath)
         {
             try
             {
                 XElement purchaseOrder = XElement.Load(filePath);
-                var partNos = (from item in purchaseOrder.Descendants("StationNode").Descendants("StationAddressItems")
-                               select new StationInfo
-                               {
-                                   StationName = item.Attribute("StationName")?.ToString() ?? "0",
-                                   TypeNameID = int.Parse(item.Attribute("StationType")?.ToString() ?? "0")
 
-                               }).ToList();
-                await Task.CompletedTask;
-                foreach (var item in partNos)
+                var partNos = from item in purchaseOrder.Descendants("StationNode")
+                              select item;
+
+                List<StationInfo> list = new List<StationInfo>();
+
+                foreach (var item in partNos.Descendants("StationAddressItems"))
                 {
+                    StationInfo part = new StationInfo();
+                    if (item.Attribute("SiteType").Value.ToString() == "0")
+                    {
+                        part.StationName = item.Element("StationName")?.Value.ToString() ?? "0";
+                        part.TypeNameID = int.Parse(item.Element("StationType")?.Value.ToString() ?? "0");
+                        part.Creater = "System";
+                        part.CreateTime= DateTime.Now.ToString("yyyy-mm-dd HH:mm:ss");
+                        part.ModfiyTime = DateTime.Now.ToString("yyyy-mm-dd HH:mm:ss");
+                        part.GuidText = Guid.NewGuid().ToString();
+                    }
 
-                    item.Creater = "System";
-                    item.ModfiyTime = DateTime.Now.ToString("yyyy-mm=dd HH:mm:ss");
-                    item.GuidText = Guid.NewGuid().ToString();
+                    list.Add(part);
                 };
-
-                return partNos;
+                await Task.CompletedTask;
+                return list;
             }
             catch (Exception ex)
             {

@@ -11,7 +11,11 @@ namespace Core.IRepository.IBaseRepository
 {
     public interface IBaseRepository<TEntity> where TEntity : class
     {
-      
+
+        /// <summary>
+        /// SqlsugarClient实体
+        /// </summary>
+        ISqlSugarClient Db { get; }
         /// <summary>
         /// 根据Id查询实体
         /// </summary>

@@ -43,7 +43,7 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).Conf
 builder.Services.AddEndpointsApiExplorer();
 // 注入扩展的SQLsugar
 builder.Services.AddSqlsugarSetup();
-
+builder.Services.AddMemoryCache();
 //// 
 //builder.Services.AddStackExchangeRedisCache(options => {
 //    // 配置redis 数据库连接

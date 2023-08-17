@@ -13,11 +13,15 @@ namespace Core.Services.BaseServices
 {
     public class BaseServices<TEntity> : IBaseServices<TEntity> where TEntity : class
     {
-        public IBaseRepository<TEntity> BaseDal { get; set; } //通过在子类的构造函数中注入，这里是基类，不用构造函数
         public BaseServices(IBaseRepository<TEntity> BaseDal = null)
         {
             this.BaseDal = BaseDal;
         }
+        public IBaseRepository<TEntity> BaseDal { get; set; }//通过在子类的构造函数中注入，这里是基类，不用构造函数
+
+        public ISqlSugarClient Db => BaseDal.Db;
+
+     
         /// <summary>
         /// 功能描述:根据ID查询一条数据
         /// 作　　者:AZLinli.Blog.Core

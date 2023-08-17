@@ -1,5 +1,6 @@
 ﻿using Core.IServices.ISugarServices;
 using Core.IServices;
+using Serilog;
 
 namespace shijinheSqllite.BackgroundServices
 {
@@ -26,7 +27,9 @@ namespace shijinheSqllite.BackgroundServices
             {
 
                 string xmlPath = _configuration.GetValue<string>("SitePathXML");
-                var siteInfos = (await _readSiteSettingXML.ReadStationConfigXmlAsync(xmlPath)).FindAll(w => w.TypeNameID.Equals(0));
+              
+
+                var siteInfos = await _readSiteSettingXML.ReadStationConfigXmlAsync(xmlPath);
 
                 if (siteInfos == null)
                 {
@@ -34,16 +37,16 @@ namespace shijinheSqllite.BackgroundServices
                 }
                 foreach (var siteInfo in siteInfos)
                 {
+                    siteInfo.GuidText=Guid.NewGuid().ToString();
                     var isAddSuccess = await _stationinfoService.AddStationInfo(siteInfo);
                     if (isAddSuccess)
                     {
-                        var isInset = await _redisServices.NotTimingSiteInfoWriteDBAsync(siteInfo);
-                        if (!isInset)
-                        {
-                            break;
-                        }
+                        var isInset = await  _redisServices.NotTimingSiteInfoWriteDBAsync(siteInfo);
+                        
                     }
                 }
+                Log.Information("DoWorkAsync:结束");
+                Log.Error("DoWorkAsync:Demo");
 
                 await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
             }
