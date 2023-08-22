@@ -10,5 +10,6 @@ namespace Core.Models
     {
         public string? StoreDateTime { get; set; }
         public string? Value { get; set; }
+        public Guid? ID { get; set;}
     }
 }

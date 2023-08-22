@@ -27,16 +27,17 @@ namespace shijinheSqllite.BackgroundServices
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
 
-            Log.Information("开始");
-           // await Console.Out.WriteLineAsync("开始");
-            using (IServiceScope scope = _serviceProvider.CreateScope()) {
-                 
+            
+            await Console.Out.WriteLineAsync("开始");
+            using (IServiceScope scope = _serviceProvider.CreateScope())
+            {
+
                 IScopedProcessingServices scopedProcessingService =
                  scope.ServiceProvider.GetRequiredService<IScopedProcessingServices>();
                 await scopedProcessingService.DoWorkAsync(stoppingToken);
             }
 
-          
+        
 
 
 

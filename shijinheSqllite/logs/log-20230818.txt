@@ -1,0 +1,32 @@
+2023-08-18 11:20:57 || Information ||  || 开始 ||  || end 
+2023-08-18 11:20:59 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-08-18 11:22:06 || Information ||  || 开始 ||  || end 
+2023-08-18 11:22:08 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-08-18 11:23:46 || Information ||  || 开始 ||  || end 
+2023-08-18 11:23:47 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-18 11:23:47 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-18 11:23:47 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-18 11:23:47 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-18 11:23:47 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 519.5921ms ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 13.5601ms ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.0915ms ||  || end 
+2023-08-18 11:23:48 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-18 11:23:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.7189ms ||  || end 
+2023-08-18 11:24:41 || Information ||  || 开始 ||  || end 
+2023-08-18 11:24:42 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-08-18 11:24:42 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-08-18 11:24:42 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-08-18 11:24:42 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-08-18 11:24:42 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-08-18 11:24:42 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.6440ms ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 476.0071ms ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.7331ms ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-08-18 11:24:43 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.6656ms ||  || end 

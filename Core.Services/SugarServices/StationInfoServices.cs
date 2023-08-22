@@ -25,7 +25,7 @@ namespace Core.Services.SugarServices
 
         }
         /// <summary>
-        /// 添加对应的XML 数据
+        /// 添加新的站点数据
         /// </summary>
         /// <param name="stationInfo"></param>
         /// <returns></returns>

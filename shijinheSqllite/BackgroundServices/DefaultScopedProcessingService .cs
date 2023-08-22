@@ -21,14 +21,18 @@ namespace shijinheSqllite.BackgroundServices
             _logger = logger;
             _configuration = configuration;
         }
+        /// <summary>
+        /// 定时 任务
+        /// </summary>
+        /// <param name="stoppingToken"></param>
+        /// <returns></returns>
         public async Task DoWorkAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-
+               
+                Log.Information("DoWorkAsync:开始");
                 string xmlPath = _configuration.GetValue<string>("SitePathXML");
-              
-
                 var siteInfos = await _readSiteSettingXML.ReadStationConfigXmlAsync(xmlPath);
 
                 if (siteInfos == null)
@@ -41,14 +45,27 @@ namespace shijinheSqllite.BackgroundServices
                     var isAddSuccess = await _stationinfoService.AddStationInfo(siteInfo);
                     if (isAddSuccess)
                     {
-                        var isInset = await  _redisServices.NotTimingSiteInfoWriteDBAsync(siteInfo);
-                        
+                        if (siteInfo.TypeNameID.Equals(0))
+                        {
+                            var isInset = await _redisServices.NotTimingSiteInfoWriteDBAsync(siteInfo);
+
+                        }
+                        else if (siteInfo.TypeNameID.Equals(1))
+                        {
+                            var isInset = await _redisServices.TimingSiteInfoWriteDBAsync(siteInfo);
+                        }
+                        else 
+                        {
+                            string logMes = string.Format("DefaultScopedProcessingService:DoWorkAsync:当前循环的类型为{0}循环处理类型无此类型。",siteInfo.TypeNameID.ToString());
+                            Log.Error(logMes);
+                        }
+
                     }
                 }
                 Log.Information("DoWorkAsync:结束");
                 Log.Error("DoWorkAsync:Demo");
 
-                await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
+                await Task.Delay(TimeSpan.FromMinutes(3), stoppingToken);
             }
                 
         }

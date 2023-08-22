@@ -17,12 +17,30 @@ namespace Core.Services.SugarServices
         {
             _repository = repository;
         }
+        /// <summary>
+        /// 添加站点对应的数据
+        /// </summary>
+        /// <param name="siteDatas">redis中存储的集合</param>
+        /// <returns></returns>
         public async Task<bool>  AddSiteDatas(List<SiteData> siteDatas)
         {
             bool result = false;
-            result = await _repository.Add(siteDatas) > 0;
+            List<SiteData> siteDatasList = new List<SiteData>(); ;
+            foreach (var siteData in siteDatas)
+            {
+                var isExistSiteData = await _repository.Query(w => w.GuidText.Equals(siteData.GuidText));
+                if (isExistSiteData==null)
+                {
+                    siteDatasList.Add(siteData);
+                }
+            }
+            result = await _repository.Add(siteDatasList) > 0;
             return result;
         }
+        /// <summary>
+        /// 查询对应的数据总数
+        /// </summary>
+        /// <returns></returns>
         public async Task<int> CountSiteDatas() 
         {
             var result = await _repository.Query();
