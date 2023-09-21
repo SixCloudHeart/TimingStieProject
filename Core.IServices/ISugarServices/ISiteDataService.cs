@@ -10,7 +10,16 @@ namespace Core.IServices.ISugarServices
 {
     public interface ISiteDataService : IBaseServices<SiteData> 
     {
-       Task<bool> AddSiteDatas(List<SiteData> siteDatas);
-       Task<int> CountSiteDatas();
+        /// <summary>
+        /// 添加站点数据
+        /// </summary>
+        /// <param name="siteDatas"></param>
+        /// <returns></returns>
+       Task<bool> AddSiteDataAsync(List<SiteData> siteDatas);
+        /// <summary>
+        /// 获取站点对象总数
+        /// </summary>
+        /// <returns></returns>
+       Task<int> GetSiteDataElementCountAsync();
     }
 }

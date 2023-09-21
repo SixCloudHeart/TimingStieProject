@@ -30,9 +30,9 @@ namespace shijinheSqllite.Controllers
       
 
         [HttpPost(Name = "StationDataType")]
-        public async Task<List<StationDataTypeDto>> Post(StationDataTypeDto stationDataTypeDto)
+        public async Task<StationDataTypeDto> Post(StationDataTypeDto stationDataTypeDto)
         {
-            return await _stationDataTypeService.GetStationDataTypesAsync(stationDataTypeDto);
+            return await _stationDataTypeService.GetByTypeNameStationDataAsync(stationDataTypeDto);
         }
 
       

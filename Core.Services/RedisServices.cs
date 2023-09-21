@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Collections.Specialized.BitVector32;
 
 namespace Core.Services
 {
@@ -21,8 +22,7 @@ namespace Core.Services
 
         readonly IStationInfoService _stationInfoService;
         readonly ISiteDataService _stationDataService;
-        // 当前时间 后缀
-       private static string NOWDATETIMESUFFIX= DateTime.Now.ToString("yyyymmdd");
+
 
         readonly ILogger<RedisServices> _logger;
 
@@ -35,183 +35,102 @@ namespace Core.Services
             _logger = logger;
         }
         /// <summary>
-        /// 处理redis 存储在数据库1 的数据
+        /// 处理定时类型 写入数据库
         /// </summary>
         /// <param name="station"></param>
         /// <returns></returns>
-        public async Task<bool> TimingSiteInfoWriteDBAsync(StationInfo station)
+        public async Task<int> SiteInfoWriteSqliteDBAsync(StationInfo station, int selectedRedisDb)
         {
+            int resultCode = 10000;
+
             if (station == null)
             {
-                return false;
+                _logger.LogError("添加的站点信息为空。");
+                return resultCode;
             }
-            string key = string.Format("{0}{1}", station.StationName, NOWDATETIMESUFFIX);
+            // 同步一天前的数据 删除 两天前的数据
+            string lateOneDay = DateTime.Now.AddDays(-1).ToString("yyyyMMdd");
+
+            string getRedisKey = string.Format("{0}{1}", lateOneDay, station.StationName);
+
+            bool  redisExistKye= await _multiplexer.GetDatabase(3).KeyExistsAsync(getRedisKey);
+
+            if (redisExistKye)
+            {
+                return resultCode;
+            }
+            // 存放已同步的数据key在redis中 三天后自动过期
+            await _multiplexer.GetDatabase(3).StringSetAsync(getRedisKey, getRedisKey, TimeSpan.FromDays(3));
+
+           
             try
             {
-                var redisList = await _multiplexer.GetDatabase(1).ListRangeAsync(key);
-                var redisExistKey = (await _multiplexer.GetDatabase(4).StringGetAsync(key)).HasValue;
-                List<SiteData> siteData = new List<SiteData>();
-                if (redisExistKey)
-                {
-                    return false;
-                }
-                if (redisList != null)
-                {
-                    var newId = await _stationDataService.CountSiteDatas() + 1;
-                    await _multiplexer.GetDatabase(4).StringSetAsync(key, key);
-                    foreach (var item in redisList)
-                    {
-                        if (!string.IsNullOrEmpty(item.ToString().Trim()))
-                        {
+                // 获取一天前的redis中的数据
+                var redisStorageList = await _multiplexer.GetDatabase(selectedRedisDb).ListRangeAsync(getRedisKey);
+                // 初始化添加的plc List
+                List<SiteData> addSiteDataList = new List<SiteData>();
 
-                            var plcDataDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
-                            SiteData part = new SiteData()
-                            {
-                                SiteDataID = newId,
-                                GuidText = plcDataDto.ID.ToString(),
-                                ReadPLCTime = plcDataDto.StoreDateTime,
-                                StationID = station.StationID,
-                                StrData = plcDataDto.Value,
-                                CreateTime = DateTime.Now.ToString("G"),
-                            };
-                            siteData.Add(part);
-                        }
-                        newId++;
+                foreach (var item in redisStorageList)
+                {
+                    var plcDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
+                    if (plcDto != null)
+                    {
+                        SiteData addSiteData = new SiteData()
+                        {
+                            GuidText = plcDto.ID.ToString(),
+                            ReadPLCTime = plcDto.StoreDateTime,
+                            StationID = station.StationID,
+                            StrData = plcDto.Value,
+                            CreateTime = DateTime.Now.ToString("G"),
+                        };
+                        addSiteDataList.Add(addSiteData);
                     }
                 }
-                // 添加站点数据
-                var result = await _stationDataService.AddSiteDatas(siteData);
-                // 成功了就删除记录在redis中的数据
-                if (result)
+                int cureentRedisKeyStorageCount = redisStorageList.Count();
+                int cureentAddSiteListCount = addSiteDataList.Count;
+                if (addSiteDataList.Count==0)
                 {
-                    // 获取前两天的日期 删除对应redis数据  还差一点  2023年8月21日16:55:23
-                    string suffixStr2 = DateTime.Now.AddDays(-2).ToString("yyyymmdd");
-                    if (!NOWDATETIMESUFFIX.Equals(suffixStr2))
-                    {
-                        string deteleKey = string.Format("{0}{1}", station.StationName, suffixStr2);
-
-
-                        bool IsDeleteSuccess = await _multiplexer.GetDatabase(1).KeyDeleteAsync(deteleKey);
-                        suffixStr2 = DateTime.Now.AddDays(-1).ToString("yyyymmdd");
-                        deteleKey = string.Format("{0}{1}", station.StationName, suffixStr2);
-                        bool IsDeleteSuccess2 = await _multiplexer.GetDatabase(1).KeyDeleteAsync(deteleKey);
-
-                        _logger.LogError(message: string.Format("AddSiteDatas:Redis日志：删除:{0}了key,是否成功:{1};删除{2}key,是否成功:{3};"));
-
-                        int redisSiteDataCount = siteData.Count;
-                        var wirteCount = (await _stationInfoService.GetStationInfos(null)).Where(w => w.StationID.Equals(station.StationID)).ToList().Count;
-
-                        string logMes = string.Format("AddSiteDatas：当前写入记录的数据站点名称为:{0}，成功写入的数据量为：{1}，redis存储实际的数据量为：{2}", station.StationName, wirteCount.ToString(), redisSiteDataCount.ToString());
-
-                        _logger.LogError(message: logMes);
-
-                        if (redisSiteDataCount.Equals(wirteCount))
-                        {
-
-                            await _multiplexer.GetDatabase(1).KeyDeleteAsync(key);
-                        }
-                    }
-
-                   
-
+                    return resultCode;
                 }
-                return result;
+
+                bool isAddSiteSuccess = await _stationDataService.AddSiteDataAsync(addSiteDataList);
+
+
+                _logger.LogInformation(string.Format("当前同步的Key是{0}，同步数据：当前redis总数:{1},sqlite添加的数据条数:{2};", getRedisKey, cureentRedisKeyStorageCount, cureentAddSiteListCount));
+
+                // 获取前两天的日期 删除对应redis数据  
+                string lateTwoDaySuffix = DateTime.Now.AddDays(-2).ToString("yyyyMMdd");
+
+
+                string deteleRedisKey = string.Format("{0}{1}", lateTwoDaySuffix, station.StationName);
+                var existDeteleRedisKey = await _multiplexer.GetDatabase(selectedRedisDb).KeyExistsAsync(deteleRedisKey);
+
+                if (existDeteleRedisKey)
+                {
+                    await _multiplexer.GetDatabase(selectedRedisDb).KeyDeleteAsync(deteleRedisKey);
+                    _logger.LogInformation(string.Format("当前删除的Key是{0}", deteleRedisKey));
+                }
+                else
+                {
+                    _logger.LogInformation(string.Format("当前删除的redisKey不存在是{0}", deteleRedisKey));
+                }
+                return resultCode;
+
+
             }
             catch (Exception ex)
             {
-                _logger.LogError(message: ex.Message);
-                return false;
+                _logger.LogError("处理数据写入sqlite失败"+ex.Message);
+                _logger.LogError("失败详情" + ex.ToString());
+                return 10001;
             }
 
         }
-        /// <summary>
-        /// 处理 redis中 定时的数据
-        /// </summary>
-        /// <param name="station"></param>
-        /// <returns></returns>
-        public async Task<bool> NotTimingSiteInfoWriteDBAsync(StationInfo station)
-        {
-            if (station == null)
-            {
-                return false;
-            }
-            //string key = string.Format("{0}", station.StationName);
-            string key = string.Format("{0}{1}", station.StationName, NOWDATETIMESUFFIX);
-
-            try
-            {
-                var redisList = await _multiplexer.GetDatabase(0).ListRangeAsync(key);
-                var redisExistKey = (await _multiplexer.GetDatabase(4).StringGetAsync(key)).HasValue;
-                List<SiteData> siteData = new List<SiteData>();
-                if (redisExistKey)
-                {
-                    return false;
-                }
-                if (redisList != null)
-                {
-                    var newId = await _stationDataService.CountSiteDatas() + 1;
-                    await _multiplexer.GetDatabase(4).StringSetAsync(key, key);
-                    foreach (var item in redisList)
-                    {
-                        if (!string.IsNullOrEmpty(item.ToString().Trim()))
-                        {
-
-                            var plcDataDto = JsonConvert.DeserializeObject<ReadRedisPlcDataDto>(item);
-                            SiteData part = new SiteData()
-                            {
-                                SiteDataID = newId,
-                                GuidText = Guid.NewGuid().ToString(),
-                                ReadPLCTime = plcDataDto.StoreDateTime,
-                                StationID = station.StationID,
-                                StrData = plcDataDto.Value,
-                                CreateTime = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"),
-                            };
-                            siteData.Add(part);
-                        }
-                        newId++;
-                    }
-                }
-                var result = await _stationDataService.AddSiteDatas(siteData);
-                // 成功了就删除记录在redis中的数据
-                if (result)
-                {
-                    // 获取前两天的日期 删除对应redis数据  还差一点  2023年8月21日16:55:23
-                    string suffixStr2 = DateTime.Now.AddDays(-2).ToString("yyyymmdd");
-                    if (!NOWDATETIMESUFFIX.Equals(suffixStr2))
-                    {
-                        string deteleKey = string.Format("{0}{1}", station.StationName, suffixStr2);
 
 
-                        bool IsDeleteSuccess = await _multiplexer.GetDatabase(1).KeyDeleteAsync(deteleKey);
-                        suffixStr2 = DateTime.Now.AddDays(-1).ToString("yyyymmdd");
-                        deteleKey = string.Format("{0}{1}", station.StationName, suffixStr2);
-                        bool IsDeleteSuccess2 = await _multiplexer.GetDatabase(1).KeyDeleteAsync(deteleKey);
-
-                        _logger.LogError(message: string.Format("AddSiteDatas:Redis日志：删除:{0}了key,是否成功:{1};删除{2}key,是否成功:{3};"));
-
-                        int redisSiteDataCount = siteData.Count;
-                        var wirteCount = (await _stationInfoService.GetStationInfos(null)).Where(w => w.StationID.Equals(station.StationID)).ToList().Count;
-
-                        string logMes = string.Format("AddSiteDatas：当前写入记录的数据站点名称为:{0}，成功写入的数据量为：{1}，redis存储实际的数据量为：{2}", station.StationName, wirteCount.ToString(), redisSiteDataCount.ToString());
-
-                        _logger.LogError(message: logMes);
-
-                        if (redisSiteDataCount.Equals(wirteCount))
-                        {
-
-                            await _multiplexer.GetDatabase(1).KeyDeleteAsync(key);
-                        }
-                    }
-                }
-                return result;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(message: ex.Message);
-                return false;
-            }
 
 
-        }
+
+
     }
 }

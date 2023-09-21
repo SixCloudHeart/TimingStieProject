@@ -9,7 +9,13 @@ namespace Core.IServices
 {
     public interface IRedisServices
     {
-        Task<bool> TimingSiteInfoWriteDBAsync(StationInfo station);
-        Task<bool> NotTimingSiteInfoWriteDBAsync(StationInfo station);
+        /// <summary>
+        ///  处理数据写入数据库  
+        /// </summary>
+        /// <param name="station"></param>
+        /// <param name="selectedRedisDB"></param>
+        /// <returns></returns>
+        Task<int> SiteInfoWriteSqliteDBAsync(StationInfo station,int selectedRedisDB);
+     
     }
 }

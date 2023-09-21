@@ -11,7 +11,7 @@ namespace Core.Entity
     [SugarTable("DataType")]
     public class StationDataType
     {
-        [SugarColumn(ColumnName= "TypeNameID", IsNullable = false, IsPrimaryKey = true)]
+        [SugarColumn(ColumnName= "TypeNameID", IsNullable = false, IsPrimaryKey = true, IsIdentity = true)]
         public int TypeNameID { get; set; }
         /// <summary>
         /// 

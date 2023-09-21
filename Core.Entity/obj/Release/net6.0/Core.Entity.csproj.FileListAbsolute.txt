@@ -1,0 +1,12 @@
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\bin\Release\net6.0\Core.Entity.deps.json
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\bin\Release\net6.0\Core.Entity.dll
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\bin\Release\net6.0\Core.Entity.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.csproj.AssemblyReference.cache
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.AssemblyInfoInputs.cache
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.AssemblyInfo.cs
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.csproj.CoreCompileInputs.cache
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.dll
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\refint\Core.Entity.dll
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\Core.Entity.pdb
+F:\sqlLitePoject\shijinheSqllite\Core.Entity\obj\Release\net6.0\ref\Core.Entity.dll

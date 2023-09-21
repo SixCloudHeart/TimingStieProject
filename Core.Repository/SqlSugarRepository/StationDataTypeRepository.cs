@@ -17,11 +17,11 @@ namespace Core.Repository.SqlSugarRepository
 
         }
         /// <summary>
-        /// 查询站点类型
+        /// 根据数据类型名称获取数据
         /// </summary>
         /// <param name="stationDataTypeDto"></param>
         /// <returns></returns>
-        public async Task<List<StationDataTypeDto>> GetStationDataTypeAsync(StationDataTypeDto stationDataTypeDto)
+        public async Task<StationDataTypeDto> GetByTypeNameStationDataAsync(StationDataTypeDto stationDataTypeDto)
         {
 
             var res= await Db.Queryable<StationDataType>().WhereIF(string
@@ -33,7 +33,7 @@ namespace Core.Repository.SqlSugarRepository
                     TypeName = s.TypeName,
                     TypeNameID = s.TypeNameID,
 
-                }).ToListAsync();
+                }).FirstAsync();
             return res;
         }
     }

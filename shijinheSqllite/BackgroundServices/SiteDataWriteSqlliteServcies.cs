@@ -9,6 +9,9 @@ using StackExchange.Redis;
 
 namespace shijinheSqllite.BackgroundServices
 {
+    /// <summary>
+    ///  数据写入Sqllite服务实现
+    /// </summary>
     public class SiteDataWriteSqlliteServcies : BackgroundService
     {
 
@@ -23,7 +26,11 @@ namespace shijinheSqllite.BackgroundServices
             _serviceProvider = serviceProvider;
         }
 
-
+        /// <summary>
+        /// 定时执行
+        /// </summary>
+        /// <param name="stoppingToken"></param>
+        /// <returns></returns>
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
 
@@ -35,6 +42,7 @@ namespace shijinheSqllite.BackgroundServices
                 IScopedProcessingServices scopedProcessingService =
                  scope.ServiceProvider.GetRequiredService<IScopedProcessingServices>();
                 await scopedProcessingService.DoWorkAsync(stoppingToken);
+                await Task.Delay(TimeSpan.FromMinutes(3), stoppingToken);
             }
 
         

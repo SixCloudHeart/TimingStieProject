@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace Core.Services.SugarServices
 {
+    /// <summary>
+    /// 站点类型服务实现
+    /// </summary>
     public class StationDataTypeServices : BaseServices<StationDataType>, IStationDataTypeService
     {
 
@@ -18,9 +21,10 @@ namespace Core.Services.SugarServices
         {
             _stationDataTypeRepository = stationDataTypeRepository;
         }
-        public async Task<List<StationDataTypeDto>> GetStationDataTypesAsync(StationDataTypeDto stationDataTypeDto)
+
+        public async Task<StationDataTypeDto> GetByTypeNameStationDataAsync(StationDataTypeDto stationDataTypeDto)
         {
-            return await _stationDataTypeRepository.GetStationDataTypeAsync(stationDataTypeDto);
+            return await _stationDataTypeRepository.GetByTypeNameStationDataAsync(stationDataTypeDto);
         }
     }
 }

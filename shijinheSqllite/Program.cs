@@ -30,7 +30,10 @@ builder.Host.UseSerilog(
 
       
     }
-    );
+    ).ConfigureAppConfiguration((context, config) =>{
+        config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
+    });
 // 使用Autofac工厂进行反射程序集注入
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).ConfigureContainer<ContainerBuilder>(builder =>
 {
@@ -72,7 +75,7 @@ builder.Services.AddControllers().AddNewtonsoftJson(options => {
 
 });
 builder.Services.AddHostedService<SiteDataWriteSqlliteServcies>();
-builder.Services.AddScoped<IScopedProcessingServices, DefaultScopedProcessingService>();
+builder.Services.AddScoped<IScopedProcessingServices, SiteScopedProcessingService>();
 
 var app = builder.Build();
 

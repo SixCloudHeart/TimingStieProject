@@ -4,6 +4,7 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllit
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.AssemblyInfo.cs
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.csproj.CoreCompileInputs.cache
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.MvcApplicationPartsAssemblyInfo.cache
+F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.MvcApplicationPartsAssemblyInfo.cs
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\appsettings.Development.json
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\appsettings.json
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\shijinheSqllite.exe
@@ -165,7 +166,6 @@ F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Entity.pd
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.IRepository.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.IServices.pdb
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\bin\Debug\net6.0\Core.Models.pdb
-F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\shijinheSqllite.MvcApplicationPartsAssemblyInfo.cs
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\staticwebassets\msbuild.shijinheSqllite.Microsoft.AspNetCore.StaticWebAssets.props
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\staticwebassets\msbuild.build.shijinheSqllite.props
 F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.shijinheSqllite.props

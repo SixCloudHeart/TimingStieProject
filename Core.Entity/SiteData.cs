@@ -11,7 +11,7 @@ namespace Core.Entity
     [SugarTable("SiteData")]
     public class SiteData
     {
-        [SugarColumn(IsNullable = false, IsPrimaryKey = true)]
+        [SugarColumn(IsNullable = false, IsPrimaryKey = true, IsIdentity = true)]
         public int SiteDataID { get; set; }
         /// <summary>
         /// 

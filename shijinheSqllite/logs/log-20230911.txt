@@ -1,0 +1,497 @@
+2023-09-11 17:58:45 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 17:59:05 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:07 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:08 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 17:59:10 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 17:59:10 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 17:59:10 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:10 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:11 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:12 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 992.3724ms ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware || The file "/swagger-ui.css" was not modified ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware || The file "/swagger-ui-standalone-preset.js" was not modified ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware || The file "/swagger-ui-bundle.js" was not modified ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 77.9969ms ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 50.4395ms ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - - - 304 - text/css 78.0045ms ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 91.8265ms ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.5244ms ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/favicon-32x32.png - - ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware || Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' ||  || end 
+2023-09-11 17:59:13 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/favicon-32x32.png - - - 200 628 image/png 55.4442ms ||  || end 
+2023-09-11 17:59:14 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 299.0541ms ||  || end 
+2023-09-11 17:59:16 || Error || Core.Services.RedisServices || Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5375ms elapsed, timeout is 5000ms), command=LRANGE, next: SELECT, inst: 0, qu: 0, qs: 2, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 2, cur-in: 0, sync-ops: 0, async-ops: 322, serverEndpoint: 127.0.0.1:6379, conn-sec: 39.59, aoc: 1, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-D3LE0BKI(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=16,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=12,QueuedItems=0,CompletedItems=785,Timers=3), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts) ||  || end 
+2023-09-11 17:59:22 || Error || Core.Services.RedisServices || Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5906ms elapsed, timeout is 5000ms), command=LRANGE, next: SELECT, inst: 0, qu: 0, qs: 3, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 2, cur-in: 0, sync-ops: 0, async-ops: 323, serverEndpoint: 127.0.0.1:6379, conn-sec: 45.57, aoc: 1, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-D3LE0BKI(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=16,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=12,QueuedItems=0,CompletedItems=800,Timers=3), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts) ||  || end 
+2023-09-11 17:59:28 || Error || Core.Services.RedisServices || Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5969ms elapsed, timeout is 5000ms), command=LRANGE, next: SELECT, inst: 0, qu: 0, qs: 4, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 2, cur-in: 0, sync-ops: 0, async-ops: 324, serverEndpoint: 127.0.0.1:6379, conn-sec: 51.57, aoc: 1, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-D3LE0BKI(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=16,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=11,QueuedItems=0,CompletedItems=807,Timers=3), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts) ||  || end 
+2023-09-11 17:59:34 || Error || Core.Services.RedisServices || Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5969ms elapsed, timeout is 5000ms), command=LRANGE, next: SELECT, inst: 0, qu: 0, qs: 5, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 2, cur-in: 0, sync-ops: 0, async-ops: 325, serverEndpoint: 127.0.0.1:6379, conn-sec: 57.57, aoc: 1, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-D3LE0BKI(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=16,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=814,Timers=3), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts) ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || TimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:37 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Error || Core.Services.RedisServices || NotTimingSiteInfoWriteDBAsync:暂无数据 ||  || end 
+2023-09-11 17:59:38 || Information ||  || DoWorkAsync:结束 ||  || end 
+2023-09-11 17:59:38 || Error ||  || DoWorkAsync:Demo ||  || end 
+2023-09-11 18:05:29 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:05:36 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 18:05:36 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 18:05:36 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 18:05:36 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 18:05:36 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 18:05:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 18:05:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 647.9638ms ||  || end 
+2023-09-11 18:05:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 18:05:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 10.0373ms ||  || end 
+2023-09-11 18:05:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 18:05:38 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.6679ms ||  || end 
+2023-09-11 18:05:40 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 18:05:41 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.3889ms ||  || end 
+2023-09-11 18:05:41 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:20 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:25 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:27 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:29 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:31 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:33 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:35 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:36 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:38 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:40 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:42 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:44 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:46 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:48 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:49 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:51 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:53 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:55 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:57 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:06:59 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:01 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:03 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:05 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:07 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:08 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:10 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:12 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:14 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:16 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:18 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:20 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:21 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:23 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:25 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:31 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:37 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:07:59 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:08:03 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 18:08:03 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 18:08:03 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 18:08:03 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 18:08:03 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 18:08:04 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 6.4436ms ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 570.0136ms ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5420ms ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 18:08:05 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.9923ms ||  || end 
+2023-09-11 18:08:10 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:08:17 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:09:22 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 18:09:23 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 18:09:24 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 18:09:24 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 18:09:24 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 18:09:32 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 7.7703ms ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 638.2137ms ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.5284ms ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 18:09:33 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.8627ms ||  || end 
+2023-09-11 18:09:39 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:09:45 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:09:50 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:09:56 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:01 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:07 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:12 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:18 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:23 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:29 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:34 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:40 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:46 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:51 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:10:56 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:11:26 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:11:29 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 18:11:29 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 18:11:29 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 18:11:29 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 18:11:29 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 18:11:30 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 18:11:30 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 18:11:30 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 7.6696ms ||  || end 
+2023-09-11 18:11:31 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 586.4735ms ||  || end 
+2023-09-11 18:11:31 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 18:11:31 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3319ms ||  || end 
+2023-09-11 18:11:31 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 18:11:31 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.2382ms ||  || end 
+2023-09-11 18:11:35 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:11:41 || Error || Core.Services.RedisServices || SQLite Error 19: 'FOREIGN KEY constraint failed'. ||  || end 
+2023-09-11 18:11:47 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:13:27 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:13:48 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 18:13:48 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 18:13:48 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 18:13:48 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 18:13:48 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 448.4703ms ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 12.0694ms ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.9359ms ||  || end 
+2023-09-11 18:13:49 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 18:13:50 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.3640ms ||  || end 
+2023-09-11 18:17:15 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:18:13 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:27:15 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:28:10 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:30:59 || Information ||  || DoWorkAsync:开始 ||  || end 
+2023-09-11 18:31:28 || Information || Microsoft.Hosting.Lifetime || Now listening on: "https://localhost:7156" ||  || end 
+2023-09-11 18:31:28 || Information || Microsoft.Hosting.Lifetime || Now listening on: "http://localhost:5027" ||  || end 
+2023-09-11 18:31:28 || Information || Microsoft.Hosting.Lifetime || Application started. Press Ctrl+C to shut down. ||  || end 
+2023-09-11 18:31:28 || Information || Microsoft.Hosting.Lifetime || Hosting environment: "Development" ||  || end 
+2023-09-11 18:31:28 || Information || Microsoft.Hosting.Lifetime || Content root path: "F:\sqlLitePoject\shijinheSqllite\shijinheSqllite\" ||  || end 
+2023-09-11 18:31:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - - ||  || end 
+2023-09-11 18:31:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - ||  || end 
+2023-09-11 18:31:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - - - 200 12361 application/javascript;+charset=utf-8 6.1330ms ||  || end 
+2023-09-11 18:31:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 611.5851ms ||  || end 
+2023-09-11 18:31:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - - ||  || end 
+2023-09-11 18:31:29 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.8797ms ||  || end 
+2023-09-11 18:31:30 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - ||  || end 
+2023-09-11 18:31:30 || Information || Microsoft.AspNetCore.Hosting.Diagnostics || Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.6604ms ||  || end 
+2023-09-11 18:31:34 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:02 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:05 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:09 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:13 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:18 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:24 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:35 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:32:49 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:33:05 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:33:23 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:33:42 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:34:03 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:34:26 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:34:46 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:35:05 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:35:26 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:35:47 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:36:09 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:36:35 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:37:02 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:37:27 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:37:54 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:38:23 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:38:54 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:39:26 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:39:58 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:40:33 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:41:10 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:41:48 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:42:27 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:43:06 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:43:46 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:44:27 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:45:11 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:47:23 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:49:28 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:51:39 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:53:45 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:56:02 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 18:58:56 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:02:16 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:05:21 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:08:40 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:12:05 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:15:58 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:19:41 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:23:34 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:27:32 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:31:44 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:36:21 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:40:57 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:45:38 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:50:24 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 19:55:20 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:00:23 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:05:34 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:10:57 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:16:51 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:22:30 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:28:20 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:34:17 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:40:27 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:46:44 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:48:55 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:51:15 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:53:32 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:55:53 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 20:58:10 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:00:27 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:02:45 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:05:03 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:07:25 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:09:48 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:12:12 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:14:35 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:17:19 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:19:46 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:22:16 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:24:45 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:27:15 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:29:45 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:32:17 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:34:52 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:37:25 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:40:00 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:42:37 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:45:13 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:47:51 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:50:29 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:53:09 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:55:50 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 21:58:33 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:01:15 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:03:59 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:06:44 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:09:30 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:12:17 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:22:33 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:32:42 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:43:31 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 22:54:18 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 23:05:10 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 23:16:20 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 23:28:01 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 23:39:38 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 
+2023-09-11 23:51:30 || Error || Core.Services.RedisServices || Index (zero based) must be greater than or equal to zero and less than the size of the argument list. ||  || end 

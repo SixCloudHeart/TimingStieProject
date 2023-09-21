@@ -14,7 +14,7 @@ namespace Core.Entity
         /// <summary>
         /// 
         /// </summary>
-        [SugarColumn(IsNullable = false, IsPrimaryKey = true)]
+        [SugarColumn(IsNullable = false, IsPrimaryKey = true, IsIdentity = true)]
         public int StationID { get; set; }
         /// <summary>
         /// 

@@ -10,6 +10,11 @@ namespace Core.IServices.ISugarServices
 {
     public interface IStationDataTypeService : IBaseServices<StationDataType> 
     {
-        Task<List<StationDataTypeDto>> GetStationDataTypesAsync(StationDataTypeDto stationDataTypeDto);
+        /// <summary>
+        /// 根据数据类型名称获取数据
+        /// </summary>
+        /// <param name="stationDataTypeDto"></param>
+        /// <returns></returns>
+        Task<StationDataTypeDto> GetByTypeNameStationDataAsync(StationDataTypeDto stationDataTypeDto);
     }
 }

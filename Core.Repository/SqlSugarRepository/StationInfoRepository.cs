@@ -16,6 +16,15 @@ namespace Core.Repository.SqlSugarRepository
         {
 
         }
-        
+
+        /// <summary>
+        /// 根据站点名称查询数据
+        /// </summary>
+        /// <param name="stationInfo"></param>
+        /// <returns></returns>
+        public Task<StationInfo> GetByStationNameStationInfoAsync(StationInfo stationInfo)
+        {
+          return   Db.Queryable<StationInfo>().Where(s =>  s.StationName.Equals(stationInfo.StationName)).FirstAsync();
+        }
     }
 }

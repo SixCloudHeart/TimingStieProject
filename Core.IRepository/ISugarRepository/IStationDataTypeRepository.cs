@@ -14,10 +14,10 @@ namespace Core.IRepository.ISugarRepository
     public interface IStationDataTypeRepository:IBaseRepository<StationDataType>
     {
         /// <summary>
-        /// 查询站点类型
+        /// 根据数据类型名称获取数据
         /// </summary>
         /// <param name="stationDataTypeDto"></param>
         /// <returns></returns>
-        Task<List<StationDataTypeDto>> GetStationDataTypeAsync(StationDataTypeDto stationDataTypeDto);
+        Task<StationDataTypeDto> GetByTypeNameStationDataAsync(StationDataTypeDto stationDataTypeDto);
     }
 }

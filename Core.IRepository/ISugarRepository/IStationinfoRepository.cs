@@ -10,6 +10,11 @@ namespace Core.IRepository.ISugarRepository
 {
     public interface IStationinfoRepository:IBaseRepository<StationInfo>
     {
-
+        /// <summary>
+        /// 根据名称查询数据
+        /// </summary>
+        /// <param name="stationInfo"></param>
+        /// <returns></returns>
+        public Task<StationInfo> GetByStationNameStationInfoAsync(StationInfo stationInfo);
     }
 }
